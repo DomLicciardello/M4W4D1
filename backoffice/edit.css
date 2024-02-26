@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* navbar */
+
+.nav-link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    margin: 8px;
+    color: white !important;
+}
+
+.nav-link:hover {
+    scale: 1.2;
+    transition: all 0.8s;
+}
+
+.nav-link.pvt_style {
+    color: rgb(120, 120, 120) !important;
+}
+
+.nav-btn-style {
+    border-radius: 50%;
+    padding: 0;
+}
+
+/* card */
+
+.card-img-top {
+    height: 300px;
+    object-fit: contain;
+}
+
+.cardProduct {
+    max-width: 18rem;
+}
+
+.titleModStyle {
+    border-top: solid 1px black;
+}
+
+/* footer */
+
+.footer {
+    background-color: #212529;
+    color: white;
+}
+
+.icon-footer {
+    font-size: 25px;
+    margin: 5px;
+}

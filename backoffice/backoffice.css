@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* navbar */
+
+.nav-link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    margin: 8px;
+    color: white !important;
+}
+
+.nav-link:hover {
+    scale: 1.2;
+    transition: all 0.8s;
+}
+
+.nav-link.pvt_style {
+    color: rgb(120, 120, 120) !important;
+}
+
+.nav-btn-style {
+    border-radius: 50%;
+    padding: 0;
+}
+
+/* prodotti */
+
+.card-img-top {
+    height: 300px;
+    object-fit: scale-down;
+}
+
+.cardProduct {
+    width: 18rem;
+}
+
+.card_title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card-description {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* footer */
+
+.footer {
+    background-color: #212529;
+    color: white;
+}
+
+.icon-footer {
+    font-size: 25px;
+    margin: 5px;
+}
